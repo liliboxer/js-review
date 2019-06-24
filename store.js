@@ -11,7 +11,7 @@ function getState() {
 }
 
 function updateState(key, value) {
-  
+  return state[key] = value;
 }
 
 module.exports = {
