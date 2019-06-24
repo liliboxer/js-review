@@ -20,6 +20,6 @@ describe('state', () => {
       toys: 100,
       shoes: 1,
       apples: 9
-    })
-  })
+    });
+  });
 });
