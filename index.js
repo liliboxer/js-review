@@ -3,9 +3,11 @@ function createDog(name, age, weight) {
   return dog;
 }
 
-const dog = createDog('Boo', 8, 50);
+const dog = createDog('Boo', 8, '50lbs');
 
 console.log(dog);
+
+module.exports = createDog;
 
 // alternative efficient way
 
